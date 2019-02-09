@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+ #container {
+	text-align: center;
+	position: relative;
+	top: 140px;
+}
+
+  h1#logo {
+	  width: 272px;
+	  height: 90px;
+	  background: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg) top left no-repeat;
+	  background-size: 100%;
+	  text-indent: -99999px;
+		margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+	border-color: #aaa;
+	button
+}
+
+input[type="search"] {
+	width: 40%;
+	height: 34px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+  }
+  
+  li {
+	float: right;
+  }
+  
+  li a {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+  }
+  
+  .accounts {
+		position: absolute;
+	  float: left;
+		bottom: 5px;
+    
+	}
+  .branch {
+		position: fixed;
+		float: left;
+		right: 0px;
+		bottom: 0px;
+	}
